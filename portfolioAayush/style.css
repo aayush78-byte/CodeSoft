@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation: slideIn 2s;
+    color: #fff;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .ab {
+    font-size: 18px;
+    color: #fff;
+    animation: fadeIn 2s;
+  }
+  
+  .img1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .i1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    border: 5px solid #3498db;
+  }
+  
+  .i1 img:hover {
+    transform: scale(1.1);
+  }
+  
+  .about {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s;
+  }
+  
+  .h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3498db;
+  }
+  
+  .h2 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  
+  .c1 {
+    font-size: 24px;
+    color: #3498db;
+    transition: color 0.3s;
+  }
+  
+  .c1:hover {
+    color: #2ecc71;
+  }
+  
+  .h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .skill-tags {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-tag {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  .skill-tag:hover {
+    background-color: #2ecc71;
+    scale: 1.1;
+  }
+  
+  .projects {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border: 1px solid #3498db;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2ecc71;
+    scale: 1.2;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #3498db;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: auto;
+  }
+  
+  .footer-content {
+    margin-top: 20px;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: #3498db;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ccc;
+  }
+  
+  .fa-brands {
+    font-size: 28px;
+  }
+  .h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+  }
+  
