@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div id="c">
+    <input type="text" id="display" readonly>
+    <div id="container">
+        <button class="a1" onclick="numer = numer +'1';document.querySelector('#display').value = numer;">1</button>
+        <button class="a1" onclick="numer=numer+'2';document.querySelector('#display').value = numer;">2</button>
+        <button class="a1" onclick="numer='';document.querySelector('#display').value = numer;">C</button>
+        <button class="a1" onclick="numer=numer+'3';document.querySelector('#display').value = numer;">3</button>
+        <button class="a1" onclick="numer=numer+'4';document.querySelector('#display').value = numer;">4</button>
+        <button class="a1" onclick="numer=numer+'+';document.querySelector('#display').value = numer;">+</button>
+        <button class="a1" onclick="numer=numer+'5';document.querySelector('#display').value = numer;">5</button>
+        <button class="a1" onclick="numer=numer+'6';document.querySelector('#display').value = numer;">6</button>
+        <button class="a1" onclick="numer=numer+'-';document.querySelector('#display').value = numer;">-</button>
+        <button class="a1" onclick="numer=numer+'7';document.querySelector('#display').value = numer;">7</button>
+        <button class="a1" onclick="numer=numer+'8';document.querySelector('#display').value = numer;">8</button>
+        <button class="a1" onclick="numer=numer+'*';document.querySelector('#display').value = numer;">*</button>
+        <button class="a1" onclick="numer=numer+'9';document.querySelector('#display').value = numer;">9</button>
+        <button class="a1" onclick="numer=numer+'0';document.querySelector('#display').value = numer;">0</button>
+        <button class="a1" onclick="numer=numer+'/';document.querySelector('#display').value = numer;">/</button>
+        <button class="a1" onclick="numer=numer+'00';document.querySelector('#display').value = numer;">00</button>
+        <button class="a1" onclick="numer=numer+'%';document.querySelector('#display').value = numer;">%</button>
+
+        <button class="a1" onclick=" let result = eval(numer); numer=result;document.querySelector('#display').value = numer;">=</button>
+
+
+  
+        
+
+    </div> 
+    </div>
+    <script>
+        let numer = '';
+        document.querySelector('#display').value = numer;
+
+
+    </script>
+    
+</body>
+</html>

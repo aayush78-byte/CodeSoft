@@ -1,0 +1,32 @@
+#c{
+    border: 1px solid black;
+    width: 220px;
+    height: 420px;
+    background-color: grey;
+}
+#display{
+    height: 40px;
+    background-color: aqua;
+
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    font-size: larger;
+    font-weight: 800;
+    
+    
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.a1{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: rgb(231, 99, 99);
+    font-size: larger;
+}
